@@ -1,12 +1,8 @@
+import Constructor from "@/App/components/screens/Admin/Constructor/Constructor";
 import { NextPage } from "next";
-import AppPage from "../App/screens/App";
 
 const HomePage: NextPage = () => {
-  return (
-    <>
-      <AppPage />
-    </>
-  );
+  return <Constructor />;
 };
 
 export default HomePage;

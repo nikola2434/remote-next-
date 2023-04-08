@@ -1,0 +1,20 @@
+@import "../../../../assets/constants.module.scss";
+@import "../../../../assets/mixins.module.scss";
+
+.default {
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid $color_blue;
+  background-color: white;
+  @include get-text(16px, 700, $color_blue);
+  cursor: pointer;
+
+}
+
+.green {
+  background-color: $color_bright_green;
+}
+.grey{
+    background-color: $color_grey;
+}

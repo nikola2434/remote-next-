@@ -1,0 +1,11 @@
+@import "../../../../../assets/constants.module.scss";
+.container {
+  display: block;
+  width: 350px;
+  height: 800px;
+  border-top: $color_blue 2px solid;
+  border-bottom: $color_blue 2px solid;
+  border-left: $color_blue 2px solid;
+  border-radius: 10px 0 0 10px;
+  padding: 5px;
+}

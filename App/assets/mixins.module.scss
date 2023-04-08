@@ -1,0 +1,8 @@
+@import "constants.module.scss";
+
+@mixin get-text($size, $weight: 400, $color: #000000) {
+  font-family: $font_source_sans_pro;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+}

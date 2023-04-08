@@ -1,0 +1,15 @@
+@import "../../../../../../../../../assets/constants.module.scss";
+
+.empty_field {
+
+  width: 100%;
+  background-color: $color_blue_secondary;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 26px;
+  color: $color_blue;
+  cursor: pointer;
+}
